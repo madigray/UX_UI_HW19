@@ -1,0 +1,235 @@
+body {
+    overflow-x: hidden;
+    background-color: #EDE6DC;
+}
+
+*{
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+section {
+    margin: 20px auto;
+}
+
+section h2 {
+    margin-bottom: 20px;
+}
+
+.header{
+    height: 80px;
+    background-color: #101010;  
+    display: flex;
+    justify-content: center;
+}
+
+.inner_header, div.logo_container h2, ul#navigation a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #101010;
+}
+
+
+.logo_container{
+    height: 100%;
+    padding-right: 50px;
+}
+
+.logo_container h2{
+    background-color: #101010;
+    color: #FA7682;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 32px;
+}
+
+#navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
+
+#navigation a{
+    background-color: #101010;
+    height: 80px;
+    padding: 0px 20px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+
+}
+
+#navigation a:last-child{
+    padding-right: 0;
+}
+
+
+#about:hover{
+    color: #FA7682;
+}
+
+#services:hover{
+    color: #FA7682;
+}
+
+#portfolio:hover{
+    color: #FA7682;
+}
+
+#contact:hover{
+    color: #FA7682;
+}
+
+.hero, .skills {
+    display: flex;
+    margin-top: 80px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1{
+    color: #101010;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 60px;
+    padding-right: 8%;
+    padding-left: 8%;
+
+}
+
+.herotext {
+    margin-bottom: 40px;
+}
+
+.herotext p{
+    color: #101010;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    width: 600px;
+    padding-right: 8%;
+    padding-left: 8%;
+    padding-top: 20px;
+
+}
+
+
+.skills_text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 50px;
+}
+
+
+
+.skills h2{
+    color: #101010;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 32px;
+    text-align: right;
+    padding-top: 80px;
+    
+}
+
+.skills p{
+    color: #101010;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    width: 600px;
+}
+
+.skills dl{
+    color: #101010;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    padding-top: 20px;
+    line-height: 35px;
+}
+
+.skills dl dt {
+    font-weight: 800;
+}
+
+.skills dl dd {
+    margin-inline-start: 40px;
+}
+
+#services2, #portfolio2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 25px;
+}
+
+.servicesGrid, .project_cards {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.servicesGrid .card, .project_cards .card {
+    background-color: white;
+    width: 380px;
+    min-width: 200px;
+    height: 200px;
+    border-radius: 8px;
+}
+
+#services2 h2{
+    color: #101010;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 32px;
+    text-align: center;
+}
+
+#portfolio2, #services2 {
+    margin-top: 100px;
+}
+
+#portfolio2 h2{
+    color: #101010;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 32px;
+    text-align: center;
+}
+
+section.footer {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 200px;
+}
+
+.footer img{
+    height: 100%;
+    padding-top: 80px;
+}
+
+.footer h2{
+    color: #101010;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 32px;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.footer p{
+    color: #101010;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 10px;
+}
